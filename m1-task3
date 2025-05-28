@@ -1,0 +1,24 @@
+// One Way
+const bioData = {
+fullName: "Md Moon",
+age: 25,
+address: "Kunjoan, Rampura, Dhaka",
+phoneNumber: "01712345678",
+email: "moondev@moon.com",
+};
+
+console.log(bioData);
+
+// Another Way
+
+// let fullName = "Md Moon";
+// let age = 25;
+// let address = "Kunjoan, Rampura, Dhaka";
+// let phoneNumber = "01712345678";
+// let email = "moondev@moon.com";
+
+// console.log("Full Name:", fullName);
+// console.log("Age:", age);
+// console.log("Address:", address);
+// console.log("Phone Number:", phoneNumber);
+// console.log("Email:", email);
