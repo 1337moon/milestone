@@ -1,0 +1,10 @@
+// const studentInfo = {
+//     name: "Hasnain",
+//     age: 20,
+//     isStudent: true,
+//     hobbies: "reading books",
+// }
+// console.log(studentInfo);
+
+const studentInfo = ["Hasnain", 20, "Student", "reading books"];
+console.log(studentInfo);
