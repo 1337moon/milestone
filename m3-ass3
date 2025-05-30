@@ -1,14 +1,14 @@
-const number = 3;
+let num = 3;
 
-switch (Math.sign(number)) {
-  case 1:
-    console.log("Positive");
+switch (true) {
+  case (num > 0):
+    console.log("Positive.");
     break;
-  case -1:
-    console.log("Negative");
+  case (num < 0):
+    console.log("Negative.");
     break;
-  case 0:
-    console.log("Zero");
+  case (num === 0):
+    console.log("Zero.");
     break;
   default:
     console.log("Not a number");
