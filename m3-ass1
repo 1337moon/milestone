@@ -1,0 +1,9 @@
+var fName = "Tanvir";
+var fAge = 25;
+var fSkills = ["Figma", "Photoshop", "Illustrator"];
+var fIsEmployed = true;
+
+console.log("my friend name is: " + fName);
+console.log("my friend age is: " + fAge);
+console.log("my friend expert in: " + fSkills.join(", "));
+console.log("my friend is employed: " + (fIsEmployed ? "Yes" : "No"));
