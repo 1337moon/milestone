@@ -1,0 +1,14 @@
+let age = 25;
+let activity;
+
+if (age >= 5 && age < 10) {
+  activity = "In school.";
+} else if (age >= 10 && age < 18) {
+  activity = "In high school.";
+} else if (age >= 18) {
+  activity = "In a job.";
+} else {
+  activity = "None";
+}
+
+console.log(activity);
