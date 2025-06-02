@@ -1,1 +1,23 @@
-console.log("Moon");
+// Global Scope
+let name = "Moon";
+function greet() {
+  console.log("Hello, " + name);
+}
+greet();
+console.log(name);
+// Block Scope
+let message;
+if (true) {
+  message = "Inside block";
+  console.log(message);
+}
+// console.log(message);
+// Lexical Scope
+function outer() {
+  let outerMsg = "Outer Message";
+  function inner() {
+    console.log(outerMsg);
+  }
+  inner();
+}
+outer();
