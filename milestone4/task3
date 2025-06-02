@@ -5,6 +5,7 @@ function greet() {
 }
 greet();
 console.log(name);
+
 // Block Scope
 let message;
 if (true) {
@@ -12,6 +13,7 @@ if (true) {
   console.log(message);
 }
 // console.log(message);
+
 // Lexical Scope
 function outer() {
   let outerMsg = "Outer Message";
