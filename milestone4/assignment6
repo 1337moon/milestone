@@ -1,0 +1,6 @@
+function maxNum(arr) {
+  if (arr.length === 0) return undefined;
+  return Math.max(...arr);
+}
+
+console.log(maxNum([3, 7, 2, 9, 5]));
