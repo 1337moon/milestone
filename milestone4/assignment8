@@ -1,0 +1,8 @@
+function isPalindrome(str) {
+  const cleaned = str.replace(/[^a-z0-9]/gi, '').toLowerCase();
+  const reversed = cleaned.split('').reverse().join('');
+  return cleaned === reversed;
+}
+
+console.log(isPalindrome("racecar"));
+console.log(isPalindrome("hello"));
