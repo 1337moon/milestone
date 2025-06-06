@@ -1,0 +1,6 @@
+const toDo = ['Project Create', 'Project Start','In Progress', 'Complete'];
+toDo.push('Project End');
+toDo.splice(1, 1);
+for (let i = 0; i < toDo.length; i++) {
+    console.log(toDo[i]);
+}
