@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milestone-6 Task One</title>
+</head>
+<body>
+
+    <h1>Simple Counter</h1>
+    <div class="counter" id="counter">0</div>
+    <button class="btn" id="decrease">-</button>
+    <button class="btn" id="increase">+</button>
+
+    <script>
+        let count = 0;
+        const counterDisplay = document.getElementById("counter");
+
+        document.getElementById("increase").onclick = function () {
+            count++;
+            counterDisplay.textContent = count;
+        };
+
+        document.getElementById("decrease").onclick = function () {
+            count--;
+            counterDisplay.textContent = count;
+        };
+    </script>
+</body>
+</html>
