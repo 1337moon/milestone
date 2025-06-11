@@ -1,0 +1,16 @@
+// Object with nested array
+const user = {
+  name: "Alice",
+  age: 28,
+  hobbies: ["reading", "traveling", "coding"]
+};
+
+// Destructuring the object and the array inside it
+const { name, age, hobbies } = user;
+const [firstHobby, secondHobby, thirdHobby] = hobbies;
+
+console.log("Name:", name);
+console.log("Age:", age);
+console.log("Hobby 1:", firstHobby);
+console.log("Hobby 2:", secondHobby);
+console.log("Hobby 3:", thirdHobby);
