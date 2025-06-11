@@ -1,0 +1,7 @@
+console.log("1. Start");
+
+setTimeout(function () {
+  console.log("2. Async operation done after 1 second");
+}, 1000);
+
+console.log("3. End");
